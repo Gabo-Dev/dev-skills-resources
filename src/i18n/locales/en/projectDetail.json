@@ -1,0 +1,11 @@
+{
+  "description": "Description",
+  "tooling": "Tooling & Scaffolding",
+  "evaluation": "Evaluation & Metrics",
+  "meta": "Metadata",
+  "links": "Links",
+  "capability": "Capability",
+  "framework": "Framework",
+  "artifact": "Artifact",
+  "deployment": "Deployment"
+}

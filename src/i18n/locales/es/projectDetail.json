@@ -1,0 +1,11 @@
+{
+  "description": "Descripción",
+  "tooling": "Herramientas y Scaffolding",
+  "evaluation": "Evaluación y Métricas",
+  "meta": "Metadatos",
+  "links": "Enlaces",
+  "capability": "Capacidad",
+  "framework": "Framework",
+  "artifact": "Artefacto",
+  "deployment": "Despliegue"
+}

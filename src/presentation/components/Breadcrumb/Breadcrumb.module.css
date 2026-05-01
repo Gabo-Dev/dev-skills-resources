@@ -1,0 +1,27 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.item a {
+  color: var(--text-muted);
+}
+
+.item a:hover {
+  color: var(--accent);
+}
+
+.current {
+  color: var(--text-secondary);
+}

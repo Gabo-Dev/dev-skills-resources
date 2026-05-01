@@ -1,0 +1,46 @@
+.card {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 20px;
+  text-align: center;
+  transition: all var(--transition);
+}
+
+.card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.value {
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+  font-family: var(--font-mono);
+}
+
+.good {
+  color: var(--success);
+}
+
+.warning {
+  color: var(--warning);
+}
+
+.bad {
+  color: var(--danger);
+}
+
+.label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.context {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}

@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  padding-top: var(--header-height);
+}
+
+.main {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.skipLink {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--accent);
+  color: white;
+  padding: 8px 16px;
+  z-index: 10000;
+  border-radius: 0 0 var(--radius-sm) 0;
+  font-weight: 600;
+  transition: top 0.2s;
+}
+
+.skipLink:focus {
+  top: 0;
+  outline: 2px solid var(--text-primary);
+  outline-offset: 2px;
+}
