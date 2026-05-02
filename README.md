@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Gabo-Dev/dev-skills-resources/main/public/logo.svg" alt="dev-skills-resources" width="120" />
-</p>
-
 <h1 align="center">dev-skills-resources</h1>
 
 <p align="center">
@@ -10,7 +6,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Gabo-Dev/dev-skills-resources/actions"><img src="https://img.shields.io/github/actions/workflow/status/Gabo-Dev/dev-skills-resources/ci.yml?branch=main&style=flat-square" alt="CI"></a>
   <a href="https://gabo-dev.github.io/dev-skills-resources/"><img src="https://img.shields.io/badge/demo-live-6366f1?style=flat-square" alt="Live Demo"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="License"></a>
 </p>
@@ -27,7 +22,6 @@
 - [Architecture](#architecture)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
-- [Project Template](#project-template)
 - [License](#license)
 
 ---
@@ -286,62 +280,10 @@ We follow [Conventional Commits](https://www.conventionalcommits.org/):
 Before submitting a PR, ensure:
 
 - [ ] Tests pass (`pnpm test`)
-- [ ] No TypeScript errors (`pnpm build`)
-- [ ] Project follows the [template](#project-template)
-- [ ] README includes metadata, evaluation, and conclusion
+  - [ ] No TypeScript errors (`pnpm build`)
+  - [ ] README includes metadata, evaluation, and conclusion
 - [ ] Screenshots or deployment link provided (if applicable)
 - [ ] Commit messages follow convention
-
----
-
-## Project Template
-
-Use this as a starting point for every new project:
-
-<details>
-<summary>Click to expand template</summary>
-
-```markdown
-# {project-name}
-
-## Metadata
-| Field | Value |
-|-------|-------|
-| Capability | `performance` |
-| Framework | `react` |
-| Artifact | `benchmark` |
-| Deployment | GitHub Pages |
-
-## What is this?
-Brief description of what the project evaluates.
-
-## Why does it exist?
-The problem or gap this project addresses.
-
-## What was tested?
-- Tool A v1.2.3
-- Pattern B with configuration C
-
-## How was it measured?
-```bash
-# Commands used to measure
-npm run benchmark
-npx lighthouse --output=json
-```
-
-## Results
-| Metric | Value | Context |
-|--------|-------|---------|
-| Performance | 96/100 | Lighthouse |
-| FCP | 0.8s | First Contentful Paint |
-
-## Conclusion
-**Verdict:** ✅ Worth adopting
-
-This pattern reduces bundle size by 23% with no DX penalty. Recommended for production use.
-```
-
-</details>
 
 ---
 
